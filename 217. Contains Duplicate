@@ -17,6 +17,7 @@ public class Solution {
 }
 
 //solution
+//http://blog.welkinlan.com/2015/09/11/contains-duplicate-i-ii-iii-leetcode-java/
 public class Solution {
     public boolean containsDuplicate(int[] nums) {
         if (nums == null || nums.length == 0) {
