@@ -1,4 +1,5 @@
 //correct solution
+//关键是思路没想到，既然是超过n/2的，那么不用管其他不是majority的数格子出现几次，只要都归到不是majority number的那类就行
 public class Solution {
     public int majorityElement(int[] num) {
 
