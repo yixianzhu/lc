@@ -67,6 +67,7 @@ public class Solution {
         Map index = new HashMap();
         for (Integer i=0; i<words.length; ++i){
             if (index.put(pattern.charAt(i), i) != index.put(words[i], i))
+            //return: the previous value associated with key, or null if there was no mapping for key
                 return false;
         }
             
