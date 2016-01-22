@@ -28,3 +28,12 @@ new String("test") == new String("test") // --> false
 // checks for nulls and calls .equals()
 Objects.equals("test", new String("test")) // --> true
 Objects.equals(null, "test") // --> false
+
+
+//method about length
+//array:
+array.length
+//string:
+string.length()
+//linked list:
+linkedlist.size()
