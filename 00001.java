@@ -45,4 +45,5 @@ Insert    	add(e)            	offer(e)
 Remove	    remove()	          poll()
 Examine     element()	          peek()
 
-
+//tree
+binary search tree != binary tree
