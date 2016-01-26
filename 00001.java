@@ -47,3 +47,10 @@ Examine     element()	          peek()
 
 //tree
 binary search tree != binary tree
+
+
+//change (append) String 
+String character = "a";
+String otherString = "helen";
+otherString=otherString+character;
+System.out.println(otherString);
