@@ -1,4 +1,4 @@
-package averagewindow;
+//to do the calculation, use double
 
 public class Solution {
 	public static double[] averagewindow(double[] nums, double window){
