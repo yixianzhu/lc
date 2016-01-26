@@ -1,7 +1,7 @@
 // HashMap的工作原理 http://www.importnew.com/7099.html
 // HashMap和Hashtable的区别 http://www.importnew.com/7010.html
 
-//my code ---- time runs out
+//my code ---- O(n^2)
 public class Solution {
     public boolean containsDuplicate(int[] nums) {
         int size = nums.length;
@@ -31,4 +31,24 @@ public class Solution {
         }
         return false;
     }
+}
+
+
+//hashmap version
+import java.util.HashMap;
+//HashMap needs to be imported
+//HashMap, not Hashmap
+
+public class Solution{
+	public boolean containsDuplicate(int[] nums){
+		int len = nums.length;
+		if(len == 0|| nums == null) return false;//corner case!
+		HashMap<Integer,Integer> hashmap = new HashMap<Integer,Integer>();//initiation different from HashSet
+
+		for(int i=0; i<len; i++){
+			if (hashmap.containsKey(nums[i])) return true;//containsKey method
+			else hashmap.put(nums[i], nums[i]);
+		}
+		return false;
+	}
 }
