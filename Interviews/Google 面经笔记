@@ -1,0 +1,6 @@
+1.
+找到一个array中出现超过两次的数。    我：hashmap
+follow up：空间要求O(1).             我：暴力O(n^2) or Sort
+
+- hashmap 与 hashset的区别
+- corner case: if (array == null || array.length == 0)
