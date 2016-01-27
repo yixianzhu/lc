@@ -1,3 +1,8 @@
+/*
+1. two string given have same length?
+2. upper case or lower case?
+3. ignore space?
+*/
 //my correct solution
 import java.util.Hashtable;
 
