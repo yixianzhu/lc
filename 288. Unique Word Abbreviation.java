@@ -18,7 +18,7 @@ Assume you have a dictionary and given a word, find whether its abbreviation is 
 A word's abbreviation is unique if no other word from the dictionary has the same abbreviation.
 */
 public class ValidWordAbbr {
-    HashMap<String, String> map;
+    HashMap<String, String> map;//must be global
     public ValidWordAbbr(String[] dictionary) {
         map = new HashMap<String, String>();
         for(String str:dictionary){
