@@ -68,3 +68,11 @@ System.out.println(otherString);
  
  //List 不能initiated
  List<String> str = new ArrayList<>();//use ArrayList
+
+
+ /*Arrays.sort(int[]) in all Java standard library implementations 
+ is an example of a comparison-based sort and thus must have worst-case complexity Ω(n log n). 
+ In particular, Oracle Java 7 uses a dual-pivot quicksort variant for the integer overloads, 
+ which actually has an Ω(n2) worst case.
+ */
+ Arrays.sort(A);//是Arrays!!
