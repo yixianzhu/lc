@@ -11,6 +11,12 @@ String.valueOf(char) // which also works.
 //As others have noted, string concatenation works as a shortcut as well:
 String s = "" + 's';
 
+//StringBuffer:
+ return sb.toString();  
+
+//++from string to integer++
+int l = Integer.parseInt(s.substring(i, sharp));
+
 ///////comparison///////////
 // These two have the same value
 new String("test").equals("test") // --> true 
