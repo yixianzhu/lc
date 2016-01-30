@@ -54,3 +54,9 @@ String character = "a";
 String otherString = "helen";
 otherString=otherString+character;
 System.out.println(otherString);
+
+//String buffer 用法
+ StringBuffer sb = new StringBuffer();//命名为sb
+ 
+ //List 不能initiated
+ List<String> str = new ArrayList<>();//use ArrayList
