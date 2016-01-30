@@ -8,7 +8,7 @@ public class Codec {
             sb.append("#");
             sb.append(s);
         }
-        return sb.toString();
+        return sb.toString();//must toString()
     }
 
     // Decodes a single string to a list of strings.
@@ -17,8 +17,8 @@ public class Codec {
         int i = 0;
         while(i < s.length()) {
             int sharp = s.indexOf('#', i);
-            int l = Integer.parseInt(s.substring(i, sharp));
-            str.add(s.substring(sharp + 1, sharp + l + 1));
+            int l = Integer.parseInt(s.substring(i, sharp));//method Integer.parseInt
+            str.add(s.substring(sharp + 1, sharp + l + 1));//add method in ArrayList
             i = sharp + l + 1;
         }
         return str;
