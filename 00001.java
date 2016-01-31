@@ -1,6 +1,17 @@
 //在等号左边！！
 List<List<Integer>> result = new ArrayList<>();
 
+//binary search
+public int binarySearch(int[] array,int lo,int hi){
+    int n = array[hi];
+    while(lo<hi){
+        int mid = (lo+hi)/2;
+        if(array[mid]==n) hi=mid;
+        else lo=mid+1;
+    }
+    return lo;
+}
+
 //++from char to int++
 String element = "el5";
 int x = Character.getNumericValue(element.charAt(2));
