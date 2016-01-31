@@ -1,3 +1,5 @@
+//在等号左边！！
+List<List<Integer>> result = new ArrayList<>();
 
 //++from char to int++
 String element = "el5";
