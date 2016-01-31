@@ -89,3 +89,10 @@ System.out.println(otherString);
  which actually has an Ω(n2) worst case.
  */
  Arrays.sort(A);//是Arrays!!
+ Arrays.asList(list);
+ 
+ //一些语句
+ for(String str:dictionary)
+ HashMap.containsKey(key);
+ HashMap.get(key).equals(str);
+ HashMap.put(key, value);
