@@ -1,5 +1,8 @@
-//在等号左边！！
+//在等号左边！！右边写不写都可以
 List<List<Integer>> result = new ArrayList<>();
+List<Integer> subList = new LinkedList<Integer>();
+//queue也是internface，不能被initialized
+Queue<TreeNode> queue = new LinkedList<TreeNode>();
 
 //binary search
 public int binarySearch(int[] array,int lo,int hi){
@@ -78,9 +81,7 @@ System.out.println(otherString);
 
 //String buffer 用法
  StringBuffer sb = new StringBuffer();//命名为sb
- 
- //List 不能initiated
- List<String> str = new ArrayList<>();//use ArrayList
+
 
 
  /*Arrays.sort(int[]) in all Java standard library implementations 
@@ -96,3 +97,6 @@ System.out.println(otherString);
  HashMap.containsKey(key);
  HashMap.get(key).equals(str);
  HashMap.put(key, value);
+
+queue.isEmpty()
+LinkedList.add(queue.poll().val);
