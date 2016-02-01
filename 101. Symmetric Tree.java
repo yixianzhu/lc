@@ -16,6 +16,7 @@ public class Solution {
     
     public boolean isSysmmetrichelp(TreeNode left, TreeNode right){
         if(left == null || right == null){// efficient and smart code
+        //这里不能直接left == right，因为child是symmetric的，肯定不相等
             return left == right;
         }
         if(left.val != right.val) return false;
