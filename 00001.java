@@ -64,10 +64,18 @@ linkedlist.size()
 
 
 //queue method
+//不能存null
        	Throws exception	Returns special value
 Insert    	add(e)            	offer(e)
 Remove	    remove()	          poll()
 Examine     element()	          peek()
+
+//stack method
+boolean	   empty()
+E   	   peek()
+E   	   pop()
+E   	   push(E item)//可以是null
+int   	   search(Object o)
 
 //tree
 binary search tree != binary tree
