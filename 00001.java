@@ -63,7 +63,7 @@ string.length()
 linkedlist.size()
 
 
-//queue method
+//queue method priority queue也是这几个方法
 //不能存null
        	Throws exception	Returns special value
 Insert    	add(e)            	offer(e)
@@ -102,9 +102,27 @@ System.out.println(otherString);
  
  //一些语句
  for(String str:dictionary)
+ 
+ Character.isLetterOrDigit(charxx);
+ Character.toLowerCase(charxx);
+ HashSet.add(e);
+ HashSet.isEmpty();//-->boolean
+ HashSet.remove(object);
+ HashSet.size();//-->int
+ 
  HashMap.containsKey(key);
  HashMap.get(key).equals(str);
  HashMap.put(key, value);
+ 
+ 
+ Hashtable.containsKey(key);
+ Hashtable.containsValue(value);
+ Hashtable.get(key).equals(str);
+ Hashtable.put(key, value);
+ Hashtable.remove(key);
+ Hashtable.isEmpty();//-->boolean
+ Hashtable.size();//-->int
+ 
 
 queue.isEmpty()
 LinkedList.add(queue.poll().val);
