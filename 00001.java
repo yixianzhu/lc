@@ -125,4 +125,6 @@ System.out.println(otherString);
  
 
 queue.isEmpty()
+
 LinkedList.add(queue.poll().val);
+LinkedList.get(index);
