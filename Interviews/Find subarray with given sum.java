@@ -1,4 +1,17 @@
 //要考虑sum=0的边界情况
+/*
+
+Example 1:
+Given nums = [1, -1, 5, -2, 3], k = 3,
+return 4. (because the subarray [1, -1, 5, -2] sums to 3 and is the longest)
+
+Example 2:
+Given nums = [-2, -1, 2, 1], k = 1,
+return 2. (because the subarray [-1, 2] sums to 1 and is the longest)
+
+Follow Up:
+Can you do it in O(n) time?
+*/
 
 //O(n^2)
 public class Solution {
