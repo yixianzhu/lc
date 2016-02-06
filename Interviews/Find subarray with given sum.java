@@ -1,3 +1,5 @@
+//要考虑sum=0的边界情况
+
 //O(n^2)
 public class Solution {
 	public static int[] subarray(int[] array, int sum){
