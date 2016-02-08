@@ -13,8 +13,11 @@ Follow Up:
 Can you do it in O(n) time?
 */
 
-//找array或者matrix的sub最长、最短、最大、最小，都应该用hashmap把值存起来，才可以做到时间复杂度最小，反复查询最有效
+//如果不用多次查找，可以用一个int sum不断累加，一旦sum<0，从下一个数开始重新累加sum
 
+
+//如果需要反复查询最有效
+//找array或者matrix的sub最长、最短、最大、最小，都应该用hashmap把值存起来，才可以做到时间复杂度最小
 public class Solution {
     public int maxSubArrayLen(int[] nums, int k) {
         if (nums==null || nums.length==0) return 0;
