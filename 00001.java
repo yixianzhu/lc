@@ -128,3 +128,7 @@ queue.isEmpty()
 
 LinkedList.add(queue.poll().val);
 LinkedList.get(index);
+
+PriorityQueue.peek();
+PriorityQueue.poll();
+PriorityQueue.offer(e);
