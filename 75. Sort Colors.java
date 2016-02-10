@@ -30,7 +30,7 @@ public class Solution {
                 nums[move] = nums[t];
                 nums[t] = 2;
                 t--;//please be careful!!
-                move--;//this one is really tricky
+                move--;//this one is really tricky, because we have to check whether the new number placed here equals to 0
             }
             move++;
         }
