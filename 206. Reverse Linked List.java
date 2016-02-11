@@ -8,7 +8,7 @@ public ListNode reverseList(ListNode head) {
         newHead = head;
         head = next;
     }
-    return newHead;
+    return newHead;//should return newHead
 }
 
 
