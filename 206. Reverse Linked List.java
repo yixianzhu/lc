@@ -12,19 +12,6 @@ public ListNode reverseList(ListNode head) {
 }
 
 
-// iterative solution
-
-public ListNode reverseList(ListNode head) {
-    ListNode newHead = null;
-    while(head != null){
-        ListNode next = head.next;
-        head.next = newHead;
-        newHead = head;
-        head = next;
-    }
-    return newHead;
-}
-
 //iterate
 public ListNode reverseList(ListNode head) {
     ListNode first = null;
@@ -39,7 +26,6 @@ public ListNode reverseList(ListNode head) {
 }
 
 // Recursion:
-
 public ListNode reverseList(ListNode head) {
     return helper(null, head);
 }
@@ -51,8 +37,8 @@ ListNode helper(ListNode reversed, ListNode remaining) {
 
     return helper(remaining, tmp);
 }
-// Iteration:
 
+// Iteration:
 public ListNode reverseList(ListNode head) {
     if(head==null) return head;
 
