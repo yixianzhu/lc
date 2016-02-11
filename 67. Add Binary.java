@@ -23,9 +23,11 @@ public class Solution {
         while(i > -1 || j > -1 || carry == 1) {
             aByte = (i > -1) ? Character.getNumericValue(aArray[i--]) : 0;//这种判断的方法挺多见的
             bByte = (j > -1) ? Character.getNumericValue(bArray[j--]) : 0;
-            result = aByte ^ bByte ^ carry;//http://www.runoob.com/java/java-operators.html
+            // result = aByte ^ bByte ^ carry;//http://www.runoob.com/java/java-operators.html
             // ^是按位异或操作符
-            carry = ((aByte + bByte + carry) >= 2) ? 1 : 0;
+            result = (aByte + bByte + carry)%2;
+            // carry = ((aByte + bByte + carry) >= 2) ? 1 : 0;
+            carry = (aByte + bByte + carry)/2;
             stb.append(result);
             //The append method always adds these characters at the end of the builder; the insert method adds the characters at a specified point.
         }
