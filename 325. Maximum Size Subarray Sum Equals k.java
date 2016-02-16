@@ -32,7 +32,7 @@ public class Solution {
             }
             if (map.containsKey(sum-k)) {
                 int index = map.get(sum-k);
-                maxLen = Math.max(maxLen, i-index);
+                maxLen = Math.max(maxLen, i-index); //这里就是i-index，不用再+1，因为index的值本来就比实际值小1
             }
         }
         return maxLen==Integer.MIN_VALUE? 0 : maxLen;
