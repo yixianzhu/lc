@@ -54,6 +54,10 @@ Objects.equals("test", new String("test")) // --> true
 Objects.equals(null, "test") // --> false
 
 
+Integer.MIN_VALUE;
+ 
+ 
+
 //method about length
 //array:
 array.length
