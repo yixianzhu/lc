@@ -126,8 +126,11 @@ System.out.println(otherString);
 
 queue.isEmpty()
 
-LinkedList.add(queue.poll().val);
+//arraylist 和 linkedlist的方法一样，只是时间复杂度不同--因为are two different implementations of the List interface
 LinkedList.get(index);
+LinkedList.add(queue.poll().val);
+LinkedList.add(int index, E element);
+LinkedList.remove(int index);
 
 PriorityQueue.peek();
 PriorityQueue.poll();
