@@ -9,6 +9,7 @@ return 2.
 //The problem can be also transformed as max number of overlaps. 
 //Analysis: Sorting two arrays take O(nlogn) time. Compare takes O(n) time. 
 //So the overall time complexity is still bounded by O(nlogn). 
+//总的来说算overlap就是要先排序，在算overlap
 /**
  * Definition for an interval.
  * public class Interval {
